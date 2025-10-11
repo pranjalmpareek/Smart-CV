@@ -1,0 +1,138 @@
+\documentclass[a4paper,10.5in,14pt]{article}
+
+\usepackage{url}
+\usepackage{parskip} 	
+
+%other packages for formatting
+\RequirePackage{color}
+\RequirePackage{graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[scale=0.92]{geometry}
+
+%tabularx environment
+\usepackage{tabularx}
+
+%for lists within experience section
+\usepackage{enumitem}
+
+% centered version of 'X' col. type
+\newcolumntype{C}{>{\centering\arraybackslash}X} 
+
+%to prevent spillover of tabular into next pages
+\usepackage{supertabular}
+\usepackage{tabularx}
+\newlength{\fullcollw}
+\setlength{\fullcollw}{0.47\textwidth}
+
+%custom \section
+\usepackage{titlesec}				
+\usepackage{multicol}
+\usepackage{multirow}
+
+%CV Sections inspired by: 
+%http://stefano.italians.nl/archives/26
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing{\section}{0pt}{10pt}{10pt}
+
+%for publications
+\usepackage[style=authoryear,sorting=ynt, maxbibnames=2]{biblatex}
+
+%Setup hyperref package, and colours for links
+\usepackage[unicode, draft=false]{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+\addbibresource{citations.bib}
+\setlength\bibitemsep{1em}
+
+%for social icons
+\usepackage{fontawesome5}
+
+%debug page outer frames
+%\usepackage{showframe}
+
+\begin{document}
+
+% non-numbered pages
+\pagestyle{empty} 
+
+\begin{tabularx}{\linewidth}{@{} C @{}}
+\Huge{\textbf{Pranjal Pareek}} \\[5pt]
+\textbf{Inventive Automation Leader $|$ AI/IoT powered Process Innovator
+ $|$ Hands-On Systems Builder}\\[5pt]
+\href{https://linkedin.com/in/pranjalpareek}{\raisebox{-0.05\height}\faLinkedin\ pranjalpareek} \ $|$ \ 
+\href{https://linktr.ee/pranjalpareek}{\raisebox{-0.05\height}\faGlobe \ Linktree} \ $|$ \ 
+\href{mailto:pranjalmpareek@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ pranjalmpareek@gmail.com} \ $|$ \ 
+\href{tel:+919022922896}{\raisebox{-0.05\height}\faMobile \ +91-9022922896} \ $|$\
+\href{tel:+919022922896}{\raisebox{-0.05\height}\faMapMarker \ Bengaluru, India}
+\end{tabularx}
+
+\hrulefill \\
+\textit{Seasoned leader with 12+ years' experience in driving technology-led transformation across e-commerce, logistics, and infrastructure. Proven expertise in design and on-ground execution of AI, IoT, and robotics-based automation aimed at improving productivity, reduce cost, and control losses across nationwide supply chains — bringing end-to-end execution and large-scale program management experience across both public and private sectors.}
+
+\section{Education}
+
+\textbf{ISB HYDERABAD} | \textit{PGP in Management, CGPA 3.70/4.00} \hfill Apr'19-Apr'20\\
+Awarded \textbf{Dean’s List(Top 10\%)} for Academic Excellence $|$
+Specializations: Strategy and Leadership, Marketing
+
+\textbf{IIT KANPUR} | \textit{B.Tech.-M.Tech. (Dual) in Civil (Structural) Engg, CPI 8.40/10.00} \hfill May'08-Jun'13\\
+Among \textbf{0.7\%} in the nat'l entrance exam for IITs; Handpicked \textbf{(4/2700)} for practicum exchange program at \textbf{UNSW Sydney}\\
+Research on real-time schedule estimation using \textbf{Bayesian forecasting}; published in \href{https://doi.org/10.1080/15623599.2015.1117710}{Int'l Journal of Construction Mgmt(2015)}
+
+% --- SIGNATURE OUTCOMES ---
+\section{Signature Outcomes}
+\begin{itemize}[leftmargin=0.5em,label={--},itemsep=0pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+    \item \textbf{6 patents filed} in inventive process design such as \textbf{dark warehouse} packaging, employing \textbf{visually impaired packers}
+    \item  \textbf{Winner} – Flipkart Innovation Award (2022), Rated \textbf{Top 5\%} Outstanding Performer, \textbf{90\%+ manager feedback} score
+     \item Invented a \textbf{BLE-based hardware ID'ing system} for airpods \& wearables, enabling \textbf{\$5M+ revenue} for recommerce biz
+    \item Built \& scaled a frugal \textbf{IoT-based MRP label reprinting system} delivering \textbf{\$2.5M annual recovery} with a \textbf{\$200/rig}
+    \item Drove \textbf{\$3.5Bn+ "Yashobhoomi" Convention Centre} from concept to execution in \textbf{14 months (industry avg: 2 yr)}
+\end{itemize}
+
+%Experience
+\section{Work Experience}
+
+% --- FLIPKART ---
+\textbf{FLIPKART \hfill Bengaluru, India}\\[3pt]
+\textbf{Lead Specialist – Automation Design} \hfill Jun'22 -- Present\\
+\textbf{Senior Specialist – Automation Design} \hfill Jun'21 -- Jun'22\\
+\textit{Leading a cross-functional team driving Flipkart’s nationwide automation charter, delivering Computer Vision, IoT, and robotics-led transformation across packaging, returns, and loss-prevention initiatives}
+
+\begin{itemize}[leftmargin=0.5em,label={--},itemsep=0pt,topsep=0pt,parsep=0pt,partopsep=0pt]
+    \item Built \& scaled a multi-technology \textbf{loss-prevention stack} preventing \textbf{\$6M+/yr. in fraud, theft, \& claim losses}
+    \item Drove nation-wide rollout of \textbf{packaging \& sortation automations} with \textbf{sub 2 year ROI} \& \textbf{3x productivity} uptick
+    \item Enabled \textbf{\$5M+ annual recovery} via \textbf{AI/IoT powered platforms} for remote defect detection \& document digitization
+    \item Led \textbf{ESG-aligned retrofits to live automations}, enabling transition to sustainable materials \& consumable reduction
+\end{itemize}
+
+
+
+% --- MYNTRA ---
+\textbf{MYNTRA JABONG INDIA PVT. LTD. \hfill Bengaluru, India}\\
+\textbf{Senior Manager – Operations Excellence} \hfill May'20 -- May'21\\
+-- Designed automation to reduce seller claim TAT by \textbf{70\%}, lifting vendor NPS by \textbf{200+ bps}\\
+-- Implemented RFID-based loss prevention and video-driven returns validation.
+
+% --- GOVT OF INDIA (NICDC) ---
+\textbf{GOVT OF INDIA (National Industrial Corridor Development Corp. Ltd.) \hfill New Delhi, India}\\
+\textbf{Manager – Infrastructure Development} \hfill Oct'16 -- Feb'19\\
+\textit{Program Manager for Industrial corridor development in North-western India \& recently inaugurated YASHOBHOOMI Project, one of Asia's largest Exhibition \& Convention Complex in New Delhi}\\
+Managed 6 contracts worth \textbf{\$450M+}; served as \textbf{primary liaison} for \textbf{Prime Minister's office, federal \& state agencies}
+
+% --- L&T REALTY ---
+\textbf{LARSEN \& TOUBRO – Realty Division \hfill Mumbai, India}\\
+\textbf{Senior Design Engineer – Structural} \hfill Aug'13 -- Sep'16\\
+\textit{Led structural engg. of 0.7M sft. luxury high-rise residential project; drove org-wide BIM adoption→18\% fewer design conflicts}
+
+% --- CAPABILITIES ---
+\section{Capabilities}
+\textbf{Tools/Tech:} WMS, RFID, BLE, X-Ray Systems, CV/OCR, SAP EWM, Python (basic)\\
+\textbf{Methods:} Lean, DMAIC, A3, Program Management\\
+\textbf{Domains:} Supply Chain Automation, E-Commerce Ops, AI Productization
+
+% --- EXTRACURRICULARS ---
+\section{Extracurricular achievements \& Interests}
+-- \textbf{Endurance athlete}: Member, Flipkart TriAthters; Finisher--Bengaluru Marathon (42.1k), Bangalore Ultra, Devil's Circuit.
+-- Winner, Junkyard Wars (IIT Kanpur): Built racing vehicle from discarded auto parts.
+
+\end{document}
