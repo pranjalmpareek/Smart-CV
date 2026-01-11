@@ -1,0 +1,9 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Pranjal_Pareek_CV.blg'
+[96] biber:340> INFO - === Sun Jan 11, 2026, 07:41:02
+[111] Biber.pm:419> INFO - Reading 'Pranjal_Pareek_CV.bcf'
+[173] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
+[185] bbl.pm:660> INFO - Writing 'Pranjal_Pareek_CV.bbl' with encoding 'UTF-8'
+[185] bbl.pm:763> INFO - Output to Pranjal_Pareek_CV.bbl
+[186] Biber.pm:131> WARN - The file 'Pranjal_Pareek_CV.bcf' does not contain any citations!
+[186] Biber.pm:133> INFO - WARNINGS: 1
